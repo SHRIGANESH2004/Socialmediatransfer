@@ -1,0 +1,7 @@
+node_modules
+bot.db
+session
+.env
+creds.json
+notif.json
+token.json

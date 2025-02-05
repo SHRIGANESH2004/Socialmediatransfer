@@ -1,0 +1,32 @@
+{
+  "name": "social-transfer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "WA_index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start WA_index.js --attach"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.6.0",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "googleapis": "^122.0.0",
+    "input": "^1.0.1",
+    "link-preview-js": "^3.0.5",
+    "pdfkit": "^0.14.0",
+    "pino": "^8.14.1",
+    "pm2": "^5.3.0",
+    "qrcode-terminal": "^0.12.0",
+    "sequelize": "^6.32.0",
+    "simple-git": "^3.19.0",
+    "sqlite3": "^5.1.6",
+    "telegram": "^2.17.4"
+  }
+}
